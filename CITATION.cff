@@ -1,0 +1,79 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Image-to-Chinese Ink Painting Style Transfer Using
+  CycleGAN
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: 'Chelsea '
+    family-names: Liu
+    email: ql2547@nyu.edu
+  - given-names: Yuewei
+    family-names: Shi
+    email: ys5795@nyu.edu
+  - given-names: Yajie
+    family-names: Zeng
+    email: yz10383@nyu.edu
+repository-code: >-
+  https://github.com/ChelseaLiu0822/Chinese_Ink_Painting_Style_Transfer
+abstract: >-
+  This project focuses on advancing the application of
+  Cycle-
+
+  GAN to transform ordinary photographs into images inspired
+
+  by the traditional Chinese ink painting style. Although
+  the
+
+  original CycleGAN has demonstrated significant potential
+  in
+
+  image-to-image translation tasks, it struggles to capture
+  the
+
+  nuanced artistic attributes of Chinese ink painting, such
+  as
+
+  expressive brush strokes, subtle ink wash diffusion, and
+  dy-
+
+  namic voids. To address these limitations, this work
+  integrates
+
+  enhanced loss functions, including brushstroke loss, ink
+  wash
+
+  loss, perceptual loss, and diffusion loss, inspired by
+  recent ad-
+
+  vancements in generative models. These additions ensure
+  that
+
+  the model preserves both the structural integrity of the
+  input
+
+  photographs and the artistic essence of Chinese ink
+  paintings.
+
+  Using a curated dataset of landscape photographs and ink
+
+  paintings, the proposed model generates visually
+  compelling
+
+  results that emphasize authenticity and artistic style.
+  This re-
+
+  port outlines the dataset, methodology, loss functions,
+  exper-
+
+  imental setup, and preliminary results, with final
+  refinements
+
+  and evaluations to be conducted in subsequent iterations.
+version: Release 0.0
+date-released: '2024-12-17'
